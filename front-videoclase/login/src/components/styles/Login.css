@@ -1,0 +1,60 @@
+.login {
+    background-color: white; /* Color de fondo del contenedor */
+    padding: 15px;
+    border: 2px solid rgba(255, 222, 104, 0.83);
+    border-radius: 9px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .h1-form {
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: var(--color-primary);
+    margin: 0%;
+    padding-left: 0px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .p-form {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    font-size: 1rem;
+    color: var(--color-primary);
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .formulario {
+    display: flex;
+    gap: 15px;
+  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-color: #00a499;
+    margin: 0 auto;
+  }
+
+  .input-form {
+    border: 0.5px solid #ccc;
+    width: 315px;
+    height: 45px;
+    border-radius: 3px;
+  }
+
+  .p-form-link {
+    padding-right: 50px;
+    text-align: left;
+  }
+
+  .link-register {
+    color: blue;
+    text-decoration: underline;
+  }
+

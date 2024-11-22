@@ -1,0 +1,66 @@
+.plantilla-view__grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.plantilla-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #dee1e573;
+    width: 340px;
+    height: 180px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.plantilla-card__name {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: center;
+    /* Centra el texto horizontalmente */
+}
+
+
+.button-plantilla {
+    background-color: #ff4444;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    padding: 10px 20px;
+    /* Relleno alrededor del texto */
+    font-size: 1rem;
+    /* Tamaño de la fuente */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Manita cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease;
+    /* Transición suave en el cambio de color */
+
+    /* Centrado horizontal dentro del contenedor padre */
+    display: block;
+    /* Para que el botón se comporte como un bloque */
+    margin: 0 auto;
+    /* Centramos horizontalmente */
+    align-self: center;
+    /* Si el contenedor es un flex container, centra verticalmente */
+}
+
+.button-plantilla:hover {
+    background-color: #ff2222;
+    /* Color al pasar el mouse */
+}
